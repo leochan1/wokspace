@@ -1,0 +1,6 @@
+12/04/17  07:33:29-main(33)[TRACE]<11300> - This is just atest.
+
+12/04/17  07:33:29-main(34)[DEBUG]<11300> - This is a bool: 1
+12/04/17  07:33:29-main(35)[INFO]<11300> - This is a char: x
+12/04/17  07:33:29-main(36)[WARN]<11300> - This is a int: 1000
+12/04/17  07:33:29-main(37)[ERROR]<11300> - This is a long(hex): 5f5e100
