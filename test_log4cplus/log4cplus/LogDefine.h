@@ -56,6 +56,7 @@ public:
 		char szDate[100]={0};
 		sprintf(szDate, "%d-%d-%d_", p->tm_year, p->tm_mon, p->tm_mday); 
 		m_szTitile = getFullPatg() + szDate + str;
+		std::locale::global(std::locale("chs"));
 	}
 	static void setFuncName(string szFuncname)
 	{
